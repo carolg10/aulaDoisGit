@@ -1,10 +1,10 @@
-console.log("Hello world") // console.log serve para imprimir uma mensagem!
 
-const nome = "Carol" // const = constancia 
-const idade = 18 
-console.log("Meu nome é", nome, "tenho", idade, "anos") // mensagem + variavel
-// teste
-const idadeNumero = 23
-const idadeTexto = idadeNumero.toString()
-console.log(typeof idadeNumero)
-console.log(typeof idadeTexto)
+//
+//const primeiroNome = "Carolina"
+//const segundoNome = "Gonçalves"
+//const idadeNumero = "18"
+//const serEstudante = "Sim"
+//console.log("Seu nome é", primeiroNome, "seu sobrenome é",segundoNome, ",você tem", idadeNumero, "anos,", "é estudante?" , serEstudante)
+//let nome = prompt ("Qual seu nome?")
+//alert(`Seu nome e ${nome}`)
+prompt("Qual seu nome? ")

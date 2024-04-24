@@ -46,9 +46,49 @@ if ((idade >= 18) && (ensinoMedio == "sim") && (faculdade == "não")){
 }*/
 
 // exercicios notion de escrita de código:
-let numero = Number(prompt("Digite um número."))
+//1
+/*let numero = Number(prompt("Digite sua idade."))
 if (numero >= 18){
-    alert("Voce pode dirigir")
+    alert("Voce pode dirigir!")
 }else{
-    alert("Voce não pode dirigir")
+    alert("Voce não pode dirigir!")
+}*/
+
+//2 
+/*let turno = prompt("Digite o turno que voce estuda: M para manha, V para tarde, N para noite")
+if (turno == "M"){
+    alert("Bom dia!!")
+}else if (turno == "V"){
+    alert("Boa Tarde!!")
+}else if (turno == "N"){
+    alert("Boa noite!!")
+}*/
+
+//3 
+/*let turnoDeEstudo = prompt("Digite o turno que voce estuda: M para manha, V para tarde, N para noite")
+switch (turnoDeEstudo){
+    case 'M':
+        alert("Bom dia!!")
+        break
+    case 'V':
+        alert("Boa tarde!!")
+        break
+    case 'N':
+        alert("Boa noite!!")
+        break
+    default:
+        alert("Turno não encontrado")
+        break
+}*/
+
+//4
+let generoDoFilme
+let precoDoFilme
+generoDoFilme = prompt("Escolha o genêro do filme: ")
+precoDoFilme = Number(prompt("Qual o valor do ingresso?"))
+generoDoFilme = generoDoFilme.toUpperCase ()
+if ((generoDoFilme === "FANTASIA") && (precoDoFilme <= 15)){
+    alert("Bom filme!!")
+}else {
+    alert("Escoha outro filme!!")
 }

@@ -82,7 +82,7 @@ switch (turnoDeEstudo){
 }*/
 
 //4
-let generoDoFilme
+/*let generoDoFilme
 let precoDoFilme
 generoDoFilme = prompt("Escolha o genêro do filme: ")
 precoDoFilme = Number(prompt("Qual o valor do ingresso?"))
@@ -91,4 +91,4 @@ if ((generoDoFilme === "FANTASIA") && (precoDoFilme <= 15)){
     alert("Bom filme!!")
 }else {
     alert("Escoha outro filme!!")
-}
+}/*

@@ -1,0 +1,15 @@
+1.
+a) para descobri se o número é impar ou par
+b) numeros pares e 0
+c) numeros impares 
+
+2. 
+a) imprimir o valor da fruta que o usuario escolher
+b) "O preço da fruta Maça é R$2.25"
+c) ele executa o default  o valor da pera declarado vai ser 5.00 e não 5.5
+
+3. 
+a) Pedindo para o usuario digitar um número 
+b) se o usuario digitar 10: Esse número passou no teste
+se o usuario digitar -10: Erro
+c) sim, não existe um else e "mensagem" não foi definido 
